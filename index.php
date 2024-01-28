@@ -13,13 +13,24 @@
 
    <?php
     
-
-   $suma = 0;
-    for($i = 1; $i <=7;$i += 3){
-        $suma += $i;
+    
+  for($k = 1;$k<=4;$k++){
+    
+    echo $k;
+    echo '<br>';
+    echo "petla zewnętrzna";
+    echo '<br>';
+    for($p = 0;$p<9;$p++){
+       
         
+        
+        
+        echo $p. " " ."wnętrze ";
+        echo '<br>';
     }
-    echo ($suma);
+    echo '<br>';
+  }
+    
 ?>
 </body>
 </html>
