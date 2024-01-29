@@ -28,20 +28,24 @@ INSERT INTO table_name(((pcolumn) - DELETE is A_I), column_one, column_two, ....
 
 
 
+$_first = $_POST['first'];
+$_second = $_POST['second'];
+
+
 $_host = "localhost";
 $_user = "root";
 $_pass = "";
 $_base = "name_base";
 
 
-$connection = new mysqli($_host,$_user,$_pass,$_base);
+$_connection = new mysqli($_host,$_user,$_pass,$_base);
 
 
-$query = "INSERT INTO table_name(column_one, column_two) VALUES ('$FIRST','$SECOND')";
+$_query = "INSERT INTO table_name(column_one, column_two) VALUES ('$_first','$_second')";
 
-$execute_query = mysqli_query($connection, $query);
+$_execute_query = mysqli_query($_connection, $_query);
 
-$connection->close();
+$_connection->close();
 
 
 
