@@ -27,3 +27,24 @@ ORDER BY imie ASC, nazwisko DESC;
 INSERT INTO table_name(((pcolumn) - DELETE is A_I), column_one, column_two, .... column_infinite) VALUES ('$ID(MUST REMOVE - A_I))','$FIRST','$SECOND', ... '$UNKNOWN');
 
 
+
+$_host = "localhost";
+$_user = "root";
+$_pass = "";
+$_base = "name_base";
+
+
+$connection = new mysqli($_host,$_user,$_pass,$_base);
+
+
+$query = "INSERT INTO table_name(column_one, column_two) VALUES ('$FIRST','$SECOND')";
+
+$execute_query = mysqli_query($connection, $query);
+
+$connection->close();
+
+
+
+
+
+
