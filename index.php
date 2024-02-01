@@ -31,6 +31,18 @@
     echo '<br>';
   }
     
+  function something_new($_c): int{
+    if($_c == 0){
+      return 1;
+    } else {
+      return $_c * something_new($_c -1);
+    }
+    
+  }
+  $_x = 5;
+   echo something_new($_x);
+
+  
 ?>
 </body>
 </html>
