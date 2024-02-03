@@ -30,7 +30,17 @@
     }
     echo '<br>';
   }
-    
+
+  $_sum = 0;
+  $_numbers = [10,20,30,40,50];
+  for($_j = 0; $_j<5; $_j++) {
+    $_sum += $_numbers[$_j];
+  }
+
+  echo "Suma elementów tablicy wynosi: $_sum ";
+  echo '<br>';
+  echo '<br>';
+  
   function something_new($_c): int{
     if($_c == 0){
       return 1;
@@ -42,7 +52,7 @@
   $_x = 5;
    echo something_new($_x);
 
-  
+   
 ?>
 </body>
 </html>
