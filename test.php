@@ -32,7 +32,7 @@
          1b. array's -                  indexing  0  1  2  3  4 
          1c. nested function -          function name
                                                return function name
-         1d. decremtation in loop
+         1d. decrementation in loop
          1e. switch case
          1f. foreach 
         2. Implementacja tabliczki mnożenia na podstawie dwóch zmiennych od użytkownika
