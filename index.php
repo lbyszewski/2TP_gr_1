@@ -51,8 +51,20 @@
   }
   $_x = 5;
    echo something_new($_x);
+ echo '<br>';
+ echo '<br>';
+   $_arr = [0 ,3 ,5 ,7 ,9 ,11 ,13 ,15 ,17 ,19 ,21 ,23 ,25 ,27 ];
 
-   
+   foreach($_arr as $_z){
+     echo ','. $_z;
+   }
+   $_dec = 1;
+   for($_w = 5;$_w >=2;$_w--){
+      $_dec *= $_w;
+   }
+   echo '<br>';
+   echo '<br>';
+   echo $_dec;
 ?>
 </body>
 </html>
